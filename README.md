@@ -1,30 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Market JS
+===
 
-## Getting Started
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
-First, run the development server:
 
+### Overview
+MarketJS is a small application that is meant to be used as a proof-of-concept about some technologies that i wanted to dig into.
+
+### Stack
+
+I'm currently using:
+- nodejs
+- Typescript
+- React
+- nextjs
+- styled-components
+- React Context
+- React Hooks
+- Jest
+- Enzyme
+
+### Running the application
 ```bash
-npm run dev
-# or
-yarn dev
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running the tests locally
+```bash
+npm run test
+```
 
-You can start editing the page by modifying `pages/index.ts`. The page auto-updates as you edit the file.
+### TODOs
 
-## Learn More
+- add tests
+- add an in-memory database for local testing and a relational database for production environments
+- onboard the application into heroku
+- add end-to-end tests (cypress)
+- add more complex typescript typing 
+- add badges
+- add a continuous delivery service (probably travisci)
+- the UX sucks (I know right!), I'll think a better one
+- add more ecommerce functionality like a cart of popups to simulate a "view more"
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+2020. [@manufarfaro](https://github.com/manufarfaro)
