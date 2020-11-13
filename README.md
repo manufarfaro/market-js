@@ -40,7 +40,7 @@ npm run test
 - add badges
 - add a continuous delivery service (probably travisci)
 - the UX sucks (I know right!), I'll think a better one
-- add more ecommerce functionality like a cart of popups to simulate a "view more"
+- add more ecommerce functionality like a cart or popups to simulate a "view more".
 
 ---
 2020. [@manufarfaro](https://github.com/manufarfaro)
