@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "active": true,
+    "price": 35.50,
+    "pictureUrl": "https://as1.ftcdn.net/jpg/01/94/39/82/500_F_194398240_upybDQbCl4UZxvMx3ZyigRBu2AwMNpw8.jpg",
+    "name": "Gameboy Color",
+    "description": "Full color portable gaming"
+  },
+  {
+    "id": 1,
+    "active": true,
+    "price": 12,
+    "pictureUrl": "https://image.freepik.com/free-psd/sega-controller-psd_36-198761414.jpg",
+    "name": "Sega Genesis Joystick",
+    "description": "Retro gaming joystick"
+  }
+]
