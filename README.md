@@ -2,7 +2,7 @@ Market JS
 ===
 
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
-
+[![Build Status](https://travis-ci.com/manufarfaro/market-js.svg?branch=main)](https://travis-ci.com/manufarfaro/market-js)
 
 ### Overview
 MarketJS is a small application that is meant to be used as a proof-of-concept about some technologies that i wanted to dig into.
