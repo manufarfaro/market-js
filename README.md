@@ -18,7 +18,7 @@ I'm currently using:
 - React Context
 - React Hooks
 - Jest
-- Enzyme
+- ~~Enzyme~~ (not needed for now)
 
 ### Running the application
 ```bash
@@ -32,15 +32,16 @@ npm run test
 
 ### TODOs
 
-- add tests
+- add tests (in progress!)
 - add an in-memory database for local testing and a relational database for production environments
 - onboard the application into heroku
 - add end-to-end tests (cypress)
 - add more complex typescript typing 
 - add badges
-- add a continuous delivery service (probably travisci)
-- the UX sucks (I know right!), I'll think a better one
+- ~~add a continuous delivery service (probably travisci)~~
+- the UX sucks (I know!), I'll think a better one
 - add more ecommerce functionality like a cart or popups to simulate a "view more".
+- add create a docker image & add k8s support
 
 ---
 2020. [@manufarfaro](https://github.com/manufarfaro)
