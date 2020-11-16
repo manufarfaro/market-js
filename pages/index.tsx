@@ -1,3 +1,4 @@
+import React from 'react';
 import { useContext } from "react";
 import SearchContext from '../components/SearchContext';
 import Head from 'next/head';

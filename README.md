@@ -37,7 +37,7 @@ npm run test
 - onboard the application into heroku
 - add end-to-end tests (cypress)
 - add more complex typescript typing 
-- add badges
+- ~~add badges~~
 - ~~add a continuous delivery service (probably travisci)~~
 - the UX sucks (I know!), I'll think a better one
 - add more ecommerce functionality like a cart or popups to simulate a "view more".
