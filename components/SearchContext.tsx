@@ -7,7 +7,7 @@ type SearchContextData = {
 };
 
 export const searchContextDefaultValue: SearchContextData = {
-    search: 'a'
+    search: ''
 }
 const SearchContext = createContext<SearchContextData>(searchContextDefaultValue);
 

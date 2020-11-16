@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import React from 'react';
 import Card from "./Card";
 import Product from '../model/Product';
 import ProductImage from './ProductImage';
