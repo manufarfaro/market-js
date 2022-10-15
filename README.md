@@ -19,7 +19,7 @@ I'm currently using:
 - React Context
 - React Hooks
 - Jest
-- React Testing Tools (comming soon)
+- React Testing Tools (coming soon)
 
 ### Running the application
 
