@@ -1,14 +1,15 @@
-import React from 'react';
-import { useContext } from "react";
-import SearchContext from '../components/SearchContext';
-import Head from 'next/head';
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import Image from 'next/image'
+import { useContext } from 'react';
+import AppContainer from '../components/AppContainer';
 import AppHeader from '../components/AppHeader';
-import SearchResults from '../components/SearchResults';
 import Content from '../components/Content';
 import Footer from '../components/Footer';
-import AppContainer from '../components/AppContainer';
+import SearchContext from '../components/SearchContext';
+import SearchResults from '../components/SearchResults';
 
-const Home = () => {
+const Home: NextPage = () => {
   const { search } = useContext(SearchContext);
   return (
     <AppContainer>
@@ -26,7 +27,7 @@ const Home = () => {
 
       <Footer />
     </AppContainer>
-  )
+  );
 };
 
 export default Home;

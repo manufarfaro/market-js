@@ -1,12 +1,12 @@
-import React, { useContext } from 'react';
+import React, { ChangeEvent, useContext } from 'react';
 import SearchContext from './SearchContext';
 import Input from "./Input";
 
 const SearchBox = () => {
     const { search, setSearch } = useContext(SearchContext);
 
-    const onSearch = e => {
-        setSearch(() => e.target.value);
+    const onSearch = (event: ChangeEvent<HTMLInputElement>) => {
+        setSearch(() => event.target.value);
     };
 
     return (

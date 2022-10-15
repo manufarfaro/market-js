@@ -1,12 +1,13 @@
-import React from 'react';
-import { AppProps } from 'next/app'
+import '../styles/globals.css'
+import type { AppProps } from 'next/app';
 import { SearchProvider } from '../components/SearchContext';
-import '../styles/globals.css';
 
-export default function MyApp({ Component, pageProps }: AppProps) {
-    return (
-        <SearchProvider>
-            <Component {...pageProps} />
-        </SearchProvider>
-    );
-};
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <SearchProvider>
+      <Component {...pageProps} />
+    </SearchProvider>
+  );
+}
+
+export default MyApp

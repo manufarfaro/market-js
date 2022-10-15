@@ -7,7 +7,7 @@ type searchProductsData = {
 };
 
 const useSearchProducts = (query: string): searchProductsData => {
-    const [loading, setLoading] = useState<boolean>();
+    const [loading, setLoading] = useState<boolean>(true);
     const [products, setProducts] = useState<Product[]>([]);
 
     const fetchData = async() => {
