@@ -48,4 +48,4 @@ npm run test
 
 ---
 
-2020. [@manufarfaro](https://github.com/manufarfaro)
+2022. [@manufarfaro](https://github.com/manufarfaro)
