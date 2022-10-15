@@ -15,7 +15,7 @@ const productsMock: Product[] = [
 ];
 
 describe("Content Component", () => {
-  let target;
+  let target: any;
 
   describe("when called without products", () => {
     beforeEach(() => {
@@ -36,26 +36,26 @@ describe("Content Component", () => {
 
     it("should not render the component", () => {
       expect(target).toMatchInlineSnapshot(`
-        <div
-          className="sc-bdfBwQ hcOgCV"
-        >
-          <div>
-            test
-             - $
-            0
-          </div>
-          <div>
-            <img
-              alt="test"
-              className="sc-gsTCUz jbntnv"
-              src="url"
-            />
-          </div>
-          <div>
-            test
-          </div>
-        </div>
-      `);
+<div
+  className="css-eaqxda"
+>
+  <div>
+    test
+     - $
+    0
+  </div>
+  <div>
+    <img
+      alt="test"
+      className="css-1yxy2io"
+      src="url"
+    />
+  </div>
+  <div>
+    test
+  </div>
+</div>
+`);
     });
   });
 });

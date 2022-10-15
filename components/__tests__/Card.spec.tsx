@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 import Card from "../Card";
 
 describe("Card Component", () => {
-  let target;
+  let target: any;
   beforeEach(() => {
     target = renderer.create(<Card>Test</Card>).toJSON();
   });
@@ -11,12 +11,12 @@ describe("Card Component", () => {
   describe("when called", () => {
     it("should render as expected", () => {
       expect(target).toMatchInlineSnapshot(`
-        <div
-          className="sc-bdfBwQ hcOgCV"
-        >
-          Test
-        </div>
-      `);
+<div
+  className="css-eaqxda"
+>
+  Test
+</div>
+`);
     });
   });
 });

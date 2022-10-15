@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 import AppContainer from "../AppContainer";
 
 describe("AppContainer Component", () => {
-  let target;
+  let target: any;
   beforeEach(() => {
     target = renderer.create(<AppContainer>test</AppContainer>).toJSON();
   });
@@ -11,12 +11,12 @@ describe("AppContainer Component", () => {
   describe("when called", () => {
     it("should render as expected", () => {
       expect(target).toMatchInlineSnapshot(`
-        <div
-          className="sc-bdfBwQ cVaEpX"
-        >
-          test
-        </div>
-      `);
+<div
+  className="css-f4vbag"
+>
+  test
+</div>
+`);
     });
   });
 });
