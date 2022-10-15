@@ -8,7 +8,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '16'
+          node-version: "16"
 
       # Speed up subsequent runs with caching
       - name: Cache node modules
@@ -23,9 +23,9 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      
+
       - name: Install Dependencies
         run: npm install
 
       - name: Run the tests
-        run: npm test
+        run: npm run test:ci
