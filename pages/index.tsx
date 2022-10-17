@@ -6,7 +6,7 @@ import AppContainer from '../components/AppContainer';
 import AppHeader from '../components/AppHeader';
 import Content from '../components/Content';
 import Footer from '../components/Footer';
-import SearchContext from '../components/SearchContext';
+import SearchContext from '../context/SearchContext';
 import SearchResults from '../components/SearchResults';
 
 const Home: NextPage = () => {

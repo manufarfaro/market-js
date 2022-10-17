@@ -7,7 +7,7 @@ type SearchContextData = {
 };
 
 type SearchProviderProp = {
-    children: ReactNode
+    children: ReactNode | ReactNode[] | undefined
 };
 
 export const searchContextDefaultValue: SearchContextData = {

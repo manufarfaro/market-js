@@ -1,5 +1,5 @@
 import React, { ChangeEvent, useContext } from 'react';
-import SearchContext from './SearchContext';
+import SearchContext from '../context/SearchContext';
 import Input from "./Input";
 
 const SearchBox = () => {

@@ -1,26 +1,11 @@
-import { useEffect, useState } from "react";
+import { useQuery, UseQueryResult } from "@tanstack/react-query";
 import Product from '../model/Product';
 
-type searchProductsData = {
-    loading: boolean;
-    products: Product[]
-};
 
-const useSearchProducts = (query: string): searchProductsData => {
-    const [loading, setLoading] = useState<boolean>(true);
-    const [products, setProducts] = useState<Product[]>([]);
+const getProducts = async (query: string): Promise<Product[]> => (await fetch(`/api/product?q=${query}`)).json();
 
-    const fetchData = async() => {
-        const response = <Product[]>await(await fetch(`/api/product?q=${query}`)).json();
-        setProducts(response);
-        setLoading(false);
-    };
-
-    useEffect(() => {
-        fetchData();
-    }, [query]);
-
-    return { loading, products };
+const useSearchProducts = (query: string): UseQueryResult<Product[]> => {
+    return useQuery(["searchProduct", query], () => getProducts(query));
 };
 
 export default useSearchProducts;
