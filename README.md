@@ -1,6 +1,9 @@
 # Market JS
 
-[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![status: deprecated](https://img.shields.io/badge/status-deprecated-critical.svg)](https://github.com/manufarfaro/its-tasty)
+
+> [!WARNING]
+> This repository is deprecated and will be archived. No further maintenance or updates are planned.
 
 ### Overview
 
